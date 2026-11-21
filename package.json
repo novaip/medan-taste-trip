@@ -1,0 +1,23 @@
+{
+  "name": "landing-page-kuliner-travel-medan",
+  "version": "1.0.0",
+  "description": "High-Converting Media Kit & Brand Collaboration Landing Page for Medan Culinary and Travel Content Creator",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --minify"
+  },
+  "keywords": [
+    "medan",
+    "kuliner",
+    "travel",
+    "media-kit",
+    "influencer",
+    "content-creator",
+    "brand-collaboration"
+  ],
+  "author": "Creative Medan Creator",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
