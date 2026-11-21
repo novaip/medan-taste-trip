@@ -29,6 +29,12 @@ html {
   opacity: 1;
 }
 
+/* AI Chat Window Animation */
+#chat-window {
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: bottom right;
+}
+
 /* Subtle Shimmer for Highlighting Brand Elements */
 @keyframes pulseSubtle {
   0%, 100% {
@@ -58,4 +64,16 @@ html {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #C84B31;
+}
+
+/* Chat container scrollbar */
+#chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+#chat-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+#chat-messages::-webkit-scrollbar-thumb {
+  background: rgba(200, 75, 49, 0.25);
+  border-radius: 4px;
 }
