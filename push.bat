@@ -1,4 +1,5 @@
 @echo off
+set "PATH=%PATH%;C:\Program Files\Git\cmd"
 echo ===========================================
 echo   Auto-Push ke GitHub & Cloudflare Pages
 echo ===========================================
